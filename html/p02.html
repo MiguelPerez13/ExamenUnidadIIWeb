@@ -3,34 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/p02.css">
     <title>Cotizacion</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="../index.html">Index</a></li>
-        </ul>
-    </nav>
 
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Index</a></li>
+            </ul>
+        </nav>
+    </header>
+        
 
     <section>
         <h1>Cotizacion</h1>
         <hr>
 
         <form action="">
-            <label for="valorAuto">Valor del automovil</label>
-            <input type="text" name="Valor del automovil" id="valorAuto">
 
-            <label for="plazo">Planes de credito</label>
-            <select name="Plazos" id="plazo">
-                <option value="12">12 Meses</option>
-                <option value="18">18 Meses</option>
-                <option value="24">24 Meses</option>
-                <option value="36">36 Meses</option>
-                <option value="48">48 Meses</option>
+            <div>
 
-            </select>
+                <label for="valorAuto">Valor del automovil</label>
+                <input type="text" name="Valor del automovil" id="valorAuto">
+                
+                <label for="plazo">Planes de credito</label>
+                <select name="Plazos" id="plazo">
+                    <option value="12">12 Meses</option>
+                    <option value="18">18 Meses</option>
+                    <option value="24">24 Meses</option>
+                    <option value="36">36 Meses</option>
+                    <option value="48">48 Meses</option>
+                    
+                </select>
+            </div>
 
+            <div>
             <label for="enganche">Enganche</label>
             <select name="Enganche" id="enganche">
                 <option value="10">10%</option>
@@ -39,20 +48,29 @@
                 <option value="50">50%</option>
                 <option value="70">70%</option>
             </select>
+            </div>
 
+            <div>
             <label for="pagoInicial">Pago inicial</label>
             <input type="number" name="Pago inicial" id="pagoInicial">
+            </div>
 
+            <div>
             <label for="totalFinanza">Total a financiar</label>
             <input type="number" name="Total a financiar" id="totalFinanza">
+            </div>
 
+            <div>
             <label for="pagoMensual">Pago mensual</label>
             <input type="number" name="Pago mensual" id="pagoMensual">
+            </div>
 
             <hr>
 
-            <button id="calcularBtn">Calcular</button>
-            <button type="reset">Limpiar</button>
+            <div class="botones">
+                <button id="calcularBtn">Calcular</button>
+                <button type="reset">Limpiar</button>
+            </div>
 
         </form>
 
