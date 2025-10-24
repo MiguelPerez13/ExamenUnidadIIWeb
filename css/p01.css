@@ -78,6 +78,7 @@ button{
     padding: 8px 8px 8px 8px;
     box-shadow: 4px 4px 5px 0px rgba(161,161,161,0.75);
     transition: 0.5s;
+    margin-bottom: 30px;
 }
 
 
@@ -86,4 +87,8 @@ button:hover{
     background-color: green;
     font-size: 20px;
     padding: 9px 9px 9px 9px;
+}
+
+#resultados{
+    margin-bottom: 20px;
 }
