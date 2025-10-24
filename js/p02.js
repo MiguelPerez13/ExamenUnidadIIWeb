@@ -26,8 +26,8 @@ const calcular = ()=>{
     let _pagoMensual = (_totalFinanza/_plazo);
 
     pagoInicial.value = _pagoInicial;
-    totalFinanza.value = _totalFinanza;
-    pagoMensual.value = _pagoMensual;
+    totalFinanza.value = _totalFinanza.toFixed(2);
+    pagoMensual.value = _pagoMensual.toFixed(2);
 }
 
 calcularBtn.addEventListener('click',calcular);
